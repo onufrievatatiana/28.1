@@ -12,15 +12,17 @@
 В работе были использованы ручные и автоматизированные тесты.
 Применялись Smoke testing, разбиеение на классы эквивалентности, проводились положительные и отрицательные тесты.
 
-Клонировать репозиторий
+Для завпуска автотестов нужно: 
 
-Установить pytest-selenium >>> pip install pytest-selenium
+- Клонировать репозиторий
 
-В Python Interpreter добавляем pytest-selenium
+- Установить pytest-selenium >>> pip install pytest-selenium
 
-Запустить тесты через консоль >>> pytest
+- В Python Interpreter добавляем pytest-selenium
 
-Запускаем тесты с помощью:
+- Запустить тесты через консоль >>> pytest
+
+- Запускаем тесты с помощью:
 
 python -m pytest -v --driver Chrome --driver-path /path/to//chromedriver test_selenium_passport
 
