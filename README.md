@@ -13,9 +13,15 @@
 Применялись Smoke testing, разбиеение на классы эквивалентности, проводились положительные и отрицательные тесты.
 
 Клонировать репозиторий
+
 Установить pytest-selenium >>> pip install pytest-selenium
+
 В Python Interpreter добавляем pytest-selenium
+
 Запустить тесты через консоль >>> pytest
+
 Запускаем тесты с помощью:
+
 python -m pytest -v --driver Chrome --driver-path /path/to//chromedriver test_selenium_passport
+
 /path/to/ -  путь к драйверу браузера Chrome
